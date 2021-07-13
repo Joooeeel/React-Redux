@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//Redux import
+import blastore from './redux/store'; //Import del store creado
+import { Provider } from 'react-redux';
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={blastore}>
     <App />
-  </React.StrictMode>,
+  </Provider>
+  ,
   document.getElementById('root')
 );
 

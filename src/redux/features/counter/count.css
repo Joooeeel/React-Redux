@@ -1,0 +1,35 @@
+.body{
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto 0px auto;
+    border: black 2px solid;
+    border-radius: 20%;
+    padding: 20px;
+}
+
+.btns{
+    padding: 20px;
+    color: black;
+    border-radius: 10%;
+    background-color: rgb(236, 95, 0);
+    font-size: large;
+    border:black 2px solid;
+}
+
+.btns:hover{
+    background-color: violet;
+}
+
+.result{
+    margin: 50px;
+    color: white;
+    font-size: 2rem;
+}
+
+.numEnter{
+    width: 10%;
+    padding: 10px;
+    margin-right: 35px;
+    font-size: 2rem;
+}
